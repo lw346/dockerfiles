@@ -1,0 +1,30 @@
+[
+  {
+    "color": "#36a64f",
+    "blocks": [
+      {
+        "type": "section",
+        "text": {
+          "text": "On-push build *Successful* for _{{workflow.parameters.module}}_",
+          "type": "mrkdwn"
+        }
+      },
+      {
+        "type": "section",
+        "text": {
+          "text": "[kustomize] Example commit message",
+          "type": "mrkdwn"
+        }
+      },
+      {
+        "type": "context",
+        "elements": [
+          {
+            "type": "mrkdwn",
+            "text": "Repo: git@github.com/sky-uk/ott-reference-app?ref=12345"
+          }
+        ]
+      }
+    ]
+  }
+]
